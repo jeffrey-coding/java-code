@@ -3,7 +3,9 @@
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/java/me/jeffrey/algorithms/base/chapter2/InsertSortTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/me/jeffrey/algorithms/base/chapter2/MergeSortTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/java/me/jeffrey/algorithms/base/chapter2/SelectionSortTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/me/jeffrey/algorithms/base/chapter2/SelectionSortTestTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/java/me/jeffrey/test/StringSpliteTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/java/me/jeffrey/utils/ThreadCacheTimeTest.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/test/java/me/jeffrey/utils/ThreadLocalDateUtilTest.java" charset="UTF-8" />

@@ -29,8 +29,10 @@ public class StirngUtilsTest {
      */
     @Test
     public void testIsNumberTrue() throws Exception {
+
         assertTrue(StirngUtils.isNumber("0"));
         System.out.println(Float.parseFloat("0"));
+        System.out.println(Float.parseFloat("2.75011e-05"));
 
         assertTrue(StirngUtils.isNumber("1"));
         System.out.println(Float.parseFloat("1"));

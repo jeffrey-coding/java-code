@@ -1,5 +1,8 @@
 package me.jeffrey.test;
 
+import org.apache.commons.lang.ArrayUtils;
+
+import java.util.ArrayList;
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
@@ -17,7 +20,15 @@ public class TestConcurrentMapIteration {
 
     public static void main(String[] args) {
 
-        new TestConcurrentMapIteration().run();
+//        new TestConcurrentMapIteration().run();
+        ConcurrentHashMap<String, ArrayList<Integer>> testMap = new ConcurrentHashMap<String, ArrayList<Integer>>();
+        ArrayList<Integer> testArr = new ArrayList<Integer>();
+        testMap.put("test",testArr);
+        testMap.get("test").add(1);
+        System.out.println(ArrayUtils.toString(testMap.get("test")));
+        ArrayList<Integer> testArrTemp  = testMap.get("test");
+        testArrTemp.add(2);
+        System.out.println(ArrayUtils.toString(testMap.get("test")));
     }
 
     private TestConcurrentMapIteration() {
